@@ -1,0 +1,41 @@
+site_name: CyberWiki - Bichinhos da TI
+repo_url: https://github.com/Bichinhos-da-TI/Cyber
+repo_name: Bichinhos-da-TI/Cyber
+
+theme:
+  name: material
+  language: pt
+  logo: ./assets/logo_bichinhos.png
+  favicon: ./assets/logo_bichinhos.png
+  features:
+    - navigation.footer
+    - header.autohide
+
+  plugins:
+    - mkdocs-video
+  
+  favicon: ./assets/logo_bichinhos.png
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-2
+        name: Switch to light mode
+
+nav:
+  - Início: index.md
+  
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
